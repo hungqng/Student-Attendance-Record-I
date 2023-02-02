@@ -27,3 +27,6 @@ class Solution:
                     if countA > 1:
                         return False
         return True
+
+        # Solution 2
+        return s.count("A") < 2 and s.find("LLL") < 0
